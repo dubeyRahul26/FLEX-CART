@@ -2,7 +2,7 @@
 // import statements
 import User from "../models/user.model.js";
 import jwt from "jsonwebtoken";
-import { generateTokens, storeRefreshToken } from "../utils/tokenutils.js";
+import { generateTokens, storeRefreshToken } from "../utils/tokenUtils.js";
 import { setCookies } from "../utils/cokieeUtils.js";
 import { redis } from "../lib/redis.js";
 
